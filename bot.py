@@ -3,6 +3,7 @@ import time
 pyautogui.PAUSE=2
 
 pyautogui.press('win')
+time.sleep(0.2)
 pyautogui.write('spotify')
 pyautogui.press('down')
 pyautogui.press('enter')
